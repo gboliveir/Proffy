@@ -28,7 +28,7 @@ export default function TeacherList() {
       </PageHeader>
 
       <main>
-        <article>
+        <article className="teacher-item">
           <header>
             <img 
               src="https://avatars.githubusercontent.com/u/71530159?v=4" 
@@ -41,9 +41,9 @@ export default function TeacherList() {
           </header>
 
           <p>
-            Programandor ReactJS. 
+            Programandor Front-end. 
             <br /> <br />
-            Especialista em projetar telas com tal tecnologia
+            Especialista em construir telas com ReackJS.
           </p>
 
           <footer>
