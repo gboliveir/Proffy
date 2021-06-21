@@ -1,7 +1,7 @@
 import React from 'react'
-import PageHeader from '../../components/PageHeader'
 
-import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
+import PageHeader from '../../components/PageHeader'
+import TeacherItem from '../../components/TeacherItem'
 
 import './styles.css'
 
@@ -28,35 +28,9 @@ export default function TeacherList() {
       </PageHeader>
 
       <main>
-        <article className="teacher-item">
-          <header>
-            <img 
-              src="https://avatars.githubusercontent.com/u/71530159?v=4" 
-              alt="Gabriel Brito" 
-            />
-            <div>
-              <strong>Gabriel Brito</strong>
-              <span>Programação</span>
-            </div>
-          </header>
-
-          <p>
-            Programandor Front-end. 
-            <br /> <br />
-            Especialista em construir telas com ReackJS.
-          </p>
-
-          <footer>
-            <p>
-              Preço/Hora 
-              <strong>R$ 80,00</strong>
-            </p>
-            <button type="button">
-              <img src={whatsappIcon} alt="Whatsapp" />
-              Entrar e contato
-            </button>
-          </footer>
-        </article>
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
       </main>
 
     </div>
